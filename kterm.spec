@@ -17,7 +17,6 @@ Patch6:		kterm-6.2.0-varargs.patch.bz2
 License:	GPL
 Url:		http://www.asahi-net.or.jp/~hc3j-tkg/kterm/
 Group:		Terminals
-Icon:		kterm.gif
 BuildRequires:	imake
 BuildRequires:	libxaw-devel
 BuildRequires:	ncurses-devel
