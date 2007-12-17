@@ -23,7 +23,6 @@ BuildRequires:	ncurses-devel
 BuildRequires:	rman
 BuildRequires:	sharutils
 BuildRequires:	utempter-devel
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	utempter locales-ja
 
 %description
