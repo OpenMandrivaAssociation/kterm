@@ -54,18 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 chmod 755 $RPM_BUILD_ROOT%{_bindir}/kterm
 
 # install menu
-install -d $RPM_BUILD_ROOT%{_menudir}
 install -m 755 -d $RPM_BUILD_ROOT%{_datadir}/applications
-
-cat <<EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}):command="%{name}" \
-                icon="terminals_section.png" \
-                needs="x11" \
-                section="Terminals" \
-                title="KTerm"\
-                longtitle="Kanji Terminal Emulator" \
-                xdg="true"
-EOF
 
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
 [Desktop Entry]
@@ -107,6 +96,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/kterm.1x*
 #{_prefix}/X11R6/lib/X11/doc/html/kterm.1.html
 %lang(ja) %{_mandir}/ja/man1/kterm.1*
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 
