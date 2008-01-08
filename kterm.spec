@@ -65,7 +65,7 @@ Exec=%{_bindir}/%{name}
 Icon=terminals_section
 Terminal=false
 Type=Application
-Categories=X-MandrivaLinux-System-Terminals;TerminalEmulator;
+Categories=TerminalEmulator;Systenalm;Utility;
 EOF
 
 # install japanese man page
