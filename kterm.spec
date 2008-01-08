@@ -73,7 +73,7 @@ cat kterm.jman | iconv -f iso-2022-jp -t euc-jp > kterm.man.euc
 install -m644 kterm.man.euc -D $RPM_BUILD_ROOT%{_mandir}/ja/man1/kterm.1
 
 #(peroyvind) remove unpackaged files
-rm -f $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults
+rm -f $RPM_BUILD_ROOT/usr/lib/X11/app-defaults
 
 %post
 %{update_menus}
