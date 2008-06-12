@@ -76,11 +76,15 @@ install -m644 kterm.man.euc -D $RPM_BUILD_ROOT%{_mandir}/ja/man1/kterm.1
 rm -f $RPM_BUILD_ROOT/usr/lib/X11/app-defaults
 
 %post
+%if %mdkversion < 200900
 %{update_menus}
+%endif
 update-alternatives --install %{_prefix}/X11R6/bin/xvt xvt %{_prefix}/X11R6/bin/kterm 15
 
 %postun
+%if %mdkversion < 200900
 %{clean_menus}
+%endif
 if [ "$1" = "0" ]; then
     update-alternatives --remove xvt %{_prefix}/X11R6/bin/kterm
 fi
