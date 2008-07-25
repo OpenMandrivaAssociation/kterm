@@ -1,6 +1,6 @@
 %define	name	kterm
 %define	version	6.2.0
-%define	release	%mkrel 27
+%define	release	%mkrel 29
 
 Summary:	A Kanji (Japanese character set) terminal emulator for X
 Name:		%{name}
