@@ -19,6 +19,7 @@ Url:		http://www.asahi-net.or.jp/~hc3j-tkg/kterm/
 Group:		Terminals
 BuildRequires:	imake
 BuildRequires:	libxaw-devel
+BuildRequires:	libxp-devel
 BuildRequires:	ncurses-devel
 BuildRequires:	rman
 BuildRequires:	sharutils
