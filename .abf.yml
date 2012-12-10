@@ -1,2 +1,8 @@
 sources:
-  "kterm-6.2.0.tar.bz2:"	a03100fa7086b0c78fc73547ecc69d9721874c09
+  "kterm-6.2.0-allfonts.patch.bz2": 63dcb5064a8ad98934156cc72c6ba3356a113b30
+  "kterm-6.2.0-gcc3.4-fix.patch.bz2": 9ebe03c3718a48205a1f96aebf890b69fa6b5177
+  "kterm-6.2.0-glibc.patch.bz2": f8e77497deed1be9954093c953b009ba7fb7a1b4
+  "kterm-6.2.0-kbd.patch.bz2": b7788be14333ce1e0b12b11cb5af67d7e94a03d7
+  "kterm-6.2.0-utmp98.patch.bz2": 6e5f678eff3c817e100661cb869e86ca8cc33a0b
+  "kterm-6.2.0-varargs.patch.bz2": 29b934cde5242e3ee2639ffb3d4df087e57363f1
+  "kterm-6.2.0.tar.bz2": a03100fa7086b0c78fc73547ecc69d9721874c09
