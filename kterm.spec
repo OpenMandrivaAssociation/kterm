@@ -15,7 +15,7 @@ Patch4:		kterm-6.2.0-allfonts.patch.bz2
 Patch5:		kterm-6.2.0-gcc3.4-fix.patch.bz2
 Patch6:		kterm-6.2.0-varargs.patch.bz2
 License:	GPL
-Url:		http://www.asahi-net.or.jp/~hc3j-tkg/kterm/
+Url:		https://www.asahi-net.or.jp/~hc3j-tkg/kterm/
 Group:		Terminals
 BuildRequires:	imake
 BuildRequires:	libxaw-devel
